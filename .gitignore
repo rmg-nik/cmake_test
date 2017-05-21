@@ -1,0 +1,10 @@
+bin
+build
+*.opensdf
+*.sdf
+*.suo
+tmp
+*.opendb
+.vs
+*.sh
+*.db
