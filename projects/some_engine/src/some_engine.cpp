@@ -3,7 +3,6 @@
 #include <SDL2/SDL.h>
 
 using namespace some_engine;
-using namespace extern_1;
 
 MainClass::MainClass()
 {
@@ -17,5 +16,4 @@ MainClass::MainClass()
 void MainClass::dummy() const
 {
     std::cout << "Hello from " << __FUNCTION__ << std::endl;
-    m_extern.dummy();
 }

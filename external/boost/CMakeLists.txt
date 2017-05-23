@@ -16,7 +16,11 @@ add_definitions(
     -DBOOST_SYSTEM_STATIC_LINK=1 
     -DBOOST_ALL_NO_LIB=1
 )
-	
+
+if(MSVC)
+	add_definitions(/wd4996)
+endif(MSVC)
+
 if(${SOME_BOOST_ENABLE_FILESYSTEM})
 	file(GLOB boost_filesystem_src 
 		"./libs/filesystem/src/*.cpp"    

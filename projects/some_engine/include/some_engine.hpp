@@ -1,8 +1,6 @@
 #ifndef __SOME_ENGINE_HPP__
 #define __SOME_ENGINE_HPP__
 
-#include <extern_1.hpp>
-
 namespace some_engine
 {
     class MainClass
@@ -15,8 +13,6 @@ namespace some_engine
         void dummy() const;
         
     private:
-        
-        extern_1::Extern_1 m_extern;
         
     };
     
